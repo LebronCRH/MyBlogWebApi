@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyBlog.Core.Model</name>
+    </assembly>
+    <members>
+        <member name="T:MyBlog.Core.Model.MyBlogModels.BlogArticle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleId">
+            <summary>
+            Desc:
+            Default:
+            Nullable:False
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleTitle">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleSubTitle">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleIntroduce">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleCoverImage">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleHtmlContent">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleMarkdownContent">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleStatus">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleCreateUserID">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleCreateUserType">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleCreateTime">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleLastUpdateTime">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleTechnicalType">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogArticle.ArticleVisitNumber">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="T:MyBlog.Core.Model.MyBlogModels.BlogConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogConfig.BlogConfigId">
+            <summary>
+            Desc:
+            Default:
+            Nullable:False
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogConfig.BlogConfigName">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.BlogConfig.BlogConfigValue">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="T:MyBlog.Core.Model.MyBlogModels.sysUserInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.ID">
+            <summary>
+            Desc:
+            Default:
+            Nullable:False
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.LoginName">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.LoginPWD">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.RealName">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.Status">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.Remark">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.CreateTime">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.UpdateTime">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.Sex">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.Age">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.Birth">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.Address">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.sysUserInfo.tdIsDelete">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="T:MyBlog.Core.Model.MyBlogModels.TechnicalTypes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.TechnicalTypes.TechnicalId">
+            <summary>
+            Desc:
+            Default:
+            Nullable:False
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.TechnicalTypes.TechnicalName">
+            <summary>
+            Desc:技术名称
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.TechnicalTypes.Introduce">
+            <summary>
+            Desc:技术相关介绍
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.TechnicalTypes.TechnicalImage">
+            <summary>
+            Desc:技术类型图片
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.MyBlogModels.TechnicalTypes.TechnicalType">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:MyBlog.Core.Model.Models.MyContext.ConnectionString">
+            <summary>
+            连接字符串 
+            Blog.Core
+            </summary>
+        </member>
+        <member name="P:MyBlog.Core.Model.Models.MyContext.DbType">
+            <summary>
+            数据库类型 
+            Blog.Core 
+            </summary>
+        </member>
+        <member name="P:MyBlog.Core.Model.Models.MyContext.Db">
+            <summary>
+            数据连接对象 
+            Blog.Core 
+            </summary>
+        </member>
+        <member name="P:MyBlog.Core.Model.Models.MyContext.Context">
+            <summary>
+            数据库上下文实例（自动关闭连接）
+            Blog.Core 
+            </summary>
+        </member>
+        <member name="M:MyBlog.Core.Model.Models.MyContext.#ctor">
+            <summary>
+            功能描述:构造函数
+            作　　者:Blog.Core
+            </summary>
+        </member>
+        <member name="M:MyBlog.Core.Model.Models.MyContext.GetEntityDB``1">
+            <summary>
+            功能描述:获取数据库处理对象
+            作　　者:Blog.Core
+            </summary>
+            <returns>返回值</returns>
+        </member>
+        <member name="M:MyBlog.Core.Model.Models.MyContext.GetEntityDB``1(SqlSugar.SqlSugarClient)">
+            <summary>
+            功能描述:获取数据库处理对象
+            作　　者:Blog.Core
+            </summary>
+            <param name="db">db</param>
+            <returns>返回值</returns>
+        </member>
+        <member name="M:MyBlog.Core.Model.Models.MyContext.GetDbContext">
+            <summary>
+            功能描述:获得一个DbContext
+            作　　者:Blog.Core
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyBlog.Core.Model.Models.MyContext.Init(System.String,SqlSugar.DbType)">
+            <summary>
+            功能描述:设置初始化参数
+            作　　者:Blog.Core
+            </summary>
+            <param name="strConnectionString">连接字符串</param>
+            <param name="enmDbType">数据库类型</param>
+        </member>
+        <member name="M:MyBlog.Core.Model.Models.MyContext.GetConnectionConfig(System.Boolean,System.Boolean)">
+            <summary>
+            功能描述:创建一个链接配置
+            作　　者:Blog.Core
+            </summary>
+            <param name="blnIsAutoCloseConnection">是否自动关闭连接</param>
+            <param name="blnIsShardSameThread">是否夸类事务</param>
+            <returns>ConnectionConfig</returns>
+        </member>
+        <member name="M:MyBlog.Core.Model.Models.MyContext.GetCustomDB(SqlSugar.ConnectionConfig)">
+            <summary>
+            功能描述:获取一个自定义的DB
+            作　　者:Blog.Core
+            </summary>
+            <param name="config">config</param>
+            <returns>返回值</returns>
+        </member>
+        <member name="M:MyBlog.Core.Model.Models.MyContext.GetCustomEntityDB``1(SqlSugar.SqlSugarClient)">
+            <summary>
+            功能描述:获取一个自定义的数据库处理对象
+            作　　者:Blog.Core
+            </summary>
+            <param name="sugarClient">sugarClient</param>
+            <returns>返回值</returns>
+        </member>
+        <member name="M:MyBlog.Core.Model.Models.MyContext.GetCustomEntityDB``1(SqlSugar.ConnectionConfig)">
+            <summary>
+            功能描述:获取一个自定义的数据库处理对象
+            作　　者:Blog.Core
+            </summary>
+            <param name="config">config</param>
+            <returns>返回值</returns>
+        </member>
+        <member name="T:MyBlog.Core.Model.PageModel`1">
+            <summary>
+            通用分页信息类
+            </summary>
+        </member>
+        <member name="P:MyBlog.Core.Model.PageModel`1.page">
+            <summary>
+            当前页标
+            </summary>
+        </member>
+        <member name="P:MyBlog.Core.Model.PageModel`1.pageCount">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:MyBlog.Core.Model.PageModel`1.dataCount">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="P:MyBlog.Core.Model.PageModel`1.PageSize">
+            <summary>
+            每页大小
+            </summary>
+        </member>
+        <member name="P:MyBlog.Core.Model.PageModel`1.data">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+    </members>
+</doc>

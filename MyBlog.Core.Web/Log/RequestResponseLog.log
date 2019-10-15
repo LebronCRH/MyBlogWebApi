@@ -1,0 +1,74 @@
+--------------------------------
+2019/9/20 13:02:39|
+Request Data:
+ QueryData:/api/values
+ BodyData:
+--------------------------------
+2019/9/20 13:02:39|
+Response Data:
+["value1","value2"]
+--------------------------------
+2019/9/20 13:03:53|
+Request Data:
+ QueryData:/api/Values
+ BodyData:
+--------------------------------
+2019/9/20 13:03:53|
+Response Data:
+["value1","value2"]
+--------------------------------
+2019/9/21 17:27:31|
+Request Data:
+ QueryData:/api/BlogArticle/postFile
+ BodyData:{
+  "version": {},
+  "content": {},
+  "method": {},
+  "requestUri": "string"
+}
+--------------------------------
+2019/9/21 17:27:32|
+Response Data:
+{"errors":{"content":["Could not create an instance of type System.Net.Http.HttpContent. Type is an interface or abstract class and cannot be instantiated. Path 'content', line 3, position 15."]},"title":"One or more validation errors occurred.","status":400,"traceId":"80000008-0000-fd00-b63f-84710c7967bb"}
+--------------------------------
+2019/9/21 17:30:37|
+Request Data:
+ QueryData:/api/BlogArticle/postFile
+ BodyData:{
+  "version": {},
+  "content": {},
+  "method": {},
+  "requestUri": "string"
+}
+--------------------------------
+2019/9/21 17:30:38|
+Response Data:
+{"errors":{"content":["Could not create an instance of type System.Net.Http.HttpContent. Type is an interface or abstract class and cannot be instantiated. Path 'content', line 3, position 15."]},"title":"One or more validation errors occurred.","status":400,"traceId":"80000007-0003-fd00-b63f-84710c7967bb"}
+--------------------------------
+2019/9/21 17:32:27|
+Request Data:
+ QueryData:/api/BlogArticle/postFile
+ BodyData:{
+  "version": {},
+  "content": {},
+  "method": {},
+  "requestUri": "string"
+}
+--------------------------------
+2019/9/21 17:32:57|
+Response Data:
+{"errors":{"content":["Could not create an instance of type System.Net.Http.HttpContent. Type is an interface or abstract class and cannot be instantiated. Path 'content', line 3, position 15."]},"title":"One or more validation errors occurred.","status":400,"traceId":"8000000a-0000-fd00-b63f-84710c7967bb"}
+--------------------------------
+2019/9/21 17:33:22|
+Request Data:
+ QueryData:/api/BlogArticle/postFile
+ BodyData:{
+  "version": {},
+  "content": {},
+  "method": {},
+  "requestUri": "string"
+}
+--------------------------------
+2019/9/21 17:33:39|
+Response Data:
+{"errors":{"content":["Could not create an instance of type System.Net.Http.HttpContent. Type is an interface or abstract class and cannot be instantiated. Path 'content', line 3, position 15."]},"title":"One or more validation errors occurred.","status":400,"traceId":"80000004-0007-fe00-b63f-84710c7967bb"}

@@ -1,0 +1,8 @@
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Model\bin\Debug\netcoreapp2.0\MyBlog.Core.Model.deps.json
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Model\bin\Debug\netcoreapp2.0\MyBlog.Core.Model.dll
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Model\bin\Debug\netcoreapp2.0\MyBlog.Core.Model.pdb
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Model\obj\Debug\netcoreapp2.0\MyBlog.Core.Model.csproj.CoreCompileInputs.cache
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Model\obj\Debug\netcoreapp2.0\MyBlog.Core.Model.AssemblyInfoInputs.cache
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Model\obj\Debug\netcoreapp2.0\MyBlog.Core.Model.AssemblyInfo.cs
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Model\obj\Debug\netcoreapp2.0\MyBlog.Core.Model.dll
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Model\obj\Debug\netcoreapp2.0\MyBlog.Core.Model.pdb

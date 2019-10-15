@@ -1,0 +1,15 @@
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\bin\Debug\netcoreapp2.2\MyBlog.Core.IRepository.deps.json
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\bin\Debug\netcoreapp2.2\MyBlog.Core.IRepository.dll
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\bin\Debug\netcoreapp2.2\MyBlog.Core.IRepository.pdb
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\bin\Debug\netcoreapp2.2\MyBlog.Core.Common.dll
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\bin\Debug\netcoreapp2.2\MyBlog.Core.Model.dll
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\bin\Debug\netcoreapp2.2\MyBlog.Core.Model.pdb
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\bin\Debug\netcoreapp2.2\MyBlog.Core.Common.pdb
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\obj\Debug\netcoreapp2.2\MyBlog.Core.IRepository.csprojAssemblyReference.cache
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\obj\Debug\netcoreapp2.2\MyBlog.Core.IRepository.csproj.CoreCompileInputs.cache
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\obj\Debug\netcoreapp2.2\MyBlog.Core.IRepository.AssemblyInfoInputs.cache
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\obj\Debug\netcoreapp2.2\MyBlog.Core.IRepository.AssemblyInfo.cs
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\obj\Debug\netcoreapp2.2\MyBlog.Core.IRepository.csproj.CopyComplete
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\obj\Debug\netcoreapp2.2\MyBlog.Core.IRepository.dll
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\obj\Debug\netcoreapp2.2\MyBlog.Core.IRepository.pdb
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.IRepository\bin\Debug\netcoreapp2.2\MyBlog.Core.Model.xml

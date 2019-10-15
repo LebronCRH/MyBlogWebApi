@@ -1,0 +1,9 @@
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.csproj.CoreCompileInputs.cache
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.AssemblyInfoInputs.cache
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.AssemblyInfo.cs
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\bin\Debug\netcoreapp2.2\MyBlog.Core.Common.deps.json
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\bin\Debug\netcoreapp2.2\MyBlog.Core.Common.dll
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\bin\Debug\netcoreapp2.2\MyBlog.Core.Common.pdb
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.dll
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.pdb
+F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.csprojAssemblyReference.cache
