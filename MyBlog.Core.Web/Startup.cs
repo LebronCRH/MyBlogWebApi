@@ -33,6 +33,10 @@ using Swashbuckle.AspNetCore.Swagger;
 using static MyBlog.Core.Web.SwaggerHelper.CustomApiVersion;
 using MyBlog.Core;
 using MyBlog.Core.Web.AutoMapper;
+using Autofac.Extras.Quartz;
+using System.Collections.Specialized;
+using System.Threading;
+using MyBlog.Core.Web.Jobs;
 
 namespace MyBlog.Core.Web
 {
@@ -229,7 +233,7 @@ namespace MyBlog.Core.Web
                 audienceConfig["Issuer"],//发行人
                 audienceConfig["Audience"],//听众
                 signingCredentials,//签名凭据
-                expiration: TimeSpan.FromSeconds(60 * 60)//接口的过期时间
+                expiration: TimeSpan.FromSeconds(1 * 60)//接口的过期时间
                 );
             #endregion
 
@@ -303,6 +307,21 @@ namespace MyBlog.Core.Web
             builder.RegisterType<LuoKiPetRedisCacheAOP>();//可以直接替换其他拦截器
             builder.RegisterType<LuoKiPetLogAOP>();//这样可以注入第二个
 
+            builder.RegisterModule(new QuartzAutofacFactoryModule()
+            {
+                ConfigurationProvider = (provider) =>
+                {
+                    var properties = new NameValueCollection();
+                    // 设置线程池
+                    properties["quartz.threadPool.type"] = "Quartz.Simpl.SimpleThreadPool, Quartz";
+                    //设置线程池的最大线程数量
+                    properties["quartz.threadPool.threadCount"] = "5";
+                    //设置作业中每个线程的优先级
+                    properties["quartz.threadPool.threadPriority"] = ThreadPriority.Normal.ToString();
+                    return properties;
+                }
+            });
+            builder.RegisterModule(new QuartzAutofacJobsModule(typeof(MyBlog.Core.Web.Jobs.Core.JobManager).Assembly));
             // ※※★※※ 如果你是第一次下载项目，请先F6编译，然后再F5执行，※※★※※
 
             #region 带有接口层的服务注入
@@ -376,7 +395,7 @@ namespace MyBlog.Core.Web
 
             //使用已进行的组件登记创建新容器
             var ApplicationContainer = builder.Build();
-
+            QuartzRegister.UseQuartz(ApplicationContainer);
             #endregion
 
             return new AutofacServiceProvider(ApplicationContainer);//第三方IOC接管 core内置DI容器

@@ -63,6 +63,25 @@ namespace MyBlog.Core.Common.Helper
             byte[] s = md5.ComputeHash(Encoding.UTF8.GetBytes(password));
             return Convert.ToBase64String(s);
         }
-
+        public static string MD5Encode(string strToEncode, Encoding encoding = null)
+        {
+            if (string.IsNullOrEmpty(strToEncode))
+            {
+                throw new ArgumentNullException("值不能为 null。\r\n参数名: password");
+            }
+            if (encoding == null)
+            {
+                encoding = Encoding.UTF8;
+            }
+            MD5CryptoServiceProvider md5Hasher = new MD5CryptoServiceProvider();
+            byte[] data = md5Hasher.ComputeHash(encoding.GetBytes(strToEncode));
+            StringBuilder sBuilder = new StringBuilder();
+            foreach (byte t in data)
+            {
+                sBuilder.Append(t.ToString("x2"));
+            }
+            return sBuilder.ToString();
+            //return FormsAuthentication.HashPasswordForStoringInConfigFile(strToEncode, "MD5");
+        }
     }
 }

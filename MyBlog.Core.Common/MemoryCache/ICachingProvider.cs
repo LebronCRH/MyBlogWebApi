@@ -8,5 +8,7 @@
         object Get(string cacheKey);
 
         void Set(string cacheKey, object cacheValue);
+        void Remove(string cacheKey);
+        bool Exists(string cacheKey);
     }
 }

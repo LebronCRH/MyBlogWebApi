@@ -56,7 +56,7 @@ namespace MyBlog.Core.Web.Controllers
                 var claims = new List<Claim> {
                     new Claim(ClaimTypes.Name, name),
                     new Claim(JwtRegisteredClaimNames.Jti, user.FirstOrDefault().ID.ToString()),
-                    new Claim(ClaimTypes.Expiration, DateTime.Now.AddSeconds(_requirement.Expiration.TotalSeconds).ToString()) };
+                    new Claim(JwtRegisteredClaimNames.Exp, DateTime.Now.AddSeconds(_requirement.Expiration.TotalSeconds).ToString()) };
                 claims.Add(new Claim(ClaimTypes.Role, "Admin"));
 
                 //用户标识
@@ -71,7 +71,7 @@ namespace MyBlog.Core.Web.Controllers
                 return new JsonResult(new
                 {
                     success = false,
-                    message = "认证失败"
+                    message = "登录名或密码错误"
                 });
             }
         }

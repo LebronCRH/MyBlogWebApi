@@ -25,6 +25,15 @@ namespace MyBlog.Core.Common.MemoryCache
         {
             _cache.Set(cacheKey, cacheValue, TimeSpan.FromSeconds(7200));
         }
+        public void Remove(string cacheKey)
+        {
+            _cache.Remove(cacheKey);
+        }
+        public bool Exists(string cacheKey)
+        {
+            object obj;
+            return _cache.TryGetValue(cacheKey,out obj);
+        }
     }
 
 }

@@ -13,6 +13,7 @@ using System.Collections;
 using MyBlog.Core.IServices;
 using MyBlog.Core.Model.MyBlogModels;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MyBlog.Core.Web.Controllers
 {
@@ -139,6 +140,7 @@ namespace MyBlog.Core.Web.Controllers
         }
 
         [HttpPost,Route("AddBlogArticle")]
+        [Authorize(Roles = "Admin")]
         public async Task<MyBlogCommonResponse<int>> AddBlogArticle([FromBody] BlogArticle blogArticle)
         {
             MyBlogCommonResponse<int> response = new MyBlogCommonResponse<int>();
@@ -172,6 +174,7 @@ namespace MyBlog.Core.Web.Controllers
         /// <param name="Files"></param>
         /// <returns></returns>
         [HttpPost("MarkdownUploadImages")]
+        [Authorize(Roles = "Admin")]
         public MyBlogCommonResponse<List<object>> MarkdownUploadImages(IFormCollection Files)
         {
             MyBlogCommonResponse<List<object>> response = new MyBlogCommonResponse<List<object>>();
@@ -253,6 +256,7 @@ namespace MyBlog.Core.Web.Controllers
         /// <param name="blogArticle"></param>
         /// <returns></returns>
         [HttpPost,Route("UpdateBlogArticle")]
+        [Authorize(Roles = "Admin")]
         public async Task<MyBlogCommonResponse<bool>> UpdateBlogArticle([FromBody] BlogArticle blogArticle)
         {
             MyBlogCommonResponse<bool> response = new MyBlogCommonResponse<bool>();
@@ -281,6 +285,7 @@ namespace MyBlog.Core.Web.Controllers
         /// <param name="type">文章的文集类型索引</param>
         /// <returns></returns>
         [HttpGet,Route("CreateNewBlogArticle")]
+        [Authorize(Roles = "Admin")]
         public async Task<MyBlogCommonResponse<BlogArticle>> CreateNewBlogArticle(int id,int type)
         {
             MyBlogCommonResponse<BlogArticle> response = new MyBlogCommonResponse<BlogArticle>();
@@ -315,6 +320,7 @@ namespace MyBlog.Core.Web.Controllers
         /// <param name="blogArticle"></param>
         /// <returns></returns>
         [HttpPost,Route("SaveBlogArticleHistoryVersion")]
+        [Authorize(Roles = "Admin")]
         public async Task<MyBlogCommonResponse<bool>> SaveBlogArticleHistoryVersion([FromBody] BlogArticle blogArticle)
         {
             MyBlogCommonResponse<bool> response = new MyBlogCommonResponse<bool>();
@@ -351,6 +357,7 @@ namespace MyBlog.Core.Web.Controllers
         /// <param name="blogid"></param>
         /// <returns></returns>
         [HttpGet,Route("GetBlogHistoryVersion")]
+        [Authorize(Roles = "Admin")]
         public async Task<MyBlogCommonResponse<List<BlogArticleHistoryVersion>>> GetBlogHistoryVersion(int blogid)
         {
             MyBlogCommonResponse<List<BlogArticleHistoryVersion>> response = new MyBlogCommonResponse<List<BlogArticleHistoryVersion>>();
@@ -381,6 +388,7 @@ namespace MyBlog.Core.Web.Controllers
         /// <param name="status"></param>
         /// <returns></returns>
         [HttpGet,Route("ChangeArticleStatus")]
+        [Authorize(Roles = "Admin")]
         public async Task<MyBlogCommonResponse<bool>> ChangeArticleStatus(int blogid, int status)
         {
             MyBlogCommonResponse<bool> response = new MyBlogCommonResponse<bool>();
