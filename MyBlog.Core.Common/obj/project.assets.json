@@ -5891,7 +5891,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "2Z5t70a2SwMsfQDp9KOclaZNyQhfIga2gppq9lIUDM1A4ohTshn4JqT7ir8bvIhXgorWKYDAr6rPzEbi/nTGKg==",
+      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
@@ -7038,27 +7038,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {},
-    "E:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\OC\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\我的.NET项目\\我的NET-Core项目\\ChenrhBlog-Core\\MyBlog.Core.Common\\MyBlog.Core.Common.csproj",
+      "projectUniqueName": "E:\\self\\MyBlogWebApi\\MyBlog.Core.Common\\MyBlog.Core.Common.csproj",
       "projectName": "MyBlog.Core.Common",
-      "projectPath": "F:\\我的.NET项目\\我的NET-Core项目\\ChenrhBlog-Core\\MyBlog.Core.Common\\MyBlog.Core.Common.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "F:\\我的.NET项目\\我的NET-Core项目\\ChenrhBlog-Core\\MyBlog.Core.Common\\obj\\",
+      "projectPath": "E:\\self\\MyBlogWebApi\\MyBlog.Core.Common\\MyBlog.Core.Common.csproj",
+      "packagesPath": "C:\\Users\\OC\\.nuget\\packages\\",
+      "outputPath": "E:\\self\\MyBlogWebApi\\MyBlog.Core.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\OC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"

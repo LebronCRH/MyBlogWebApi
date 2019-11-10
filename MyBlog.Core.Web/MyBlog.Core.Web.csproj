@@ -42,4 +42,8 @@
     <ProjectReference Include="..\MyBlog.Core.IServices\MyBlog.Core.IServices.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="extend\" />
+  </ItemGroup>
+
 </Project>

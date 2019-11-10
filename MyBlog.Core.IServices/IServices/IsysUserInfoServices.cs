@@ -1,4 +1,5 @@
-﻿using MyBlog.Core.IServices.Base;
+﻿using Czar.Cms.Unity;
+using MyBlog.Core.IServices.Base;
 using MyBlog.Core.Model.MyBlogModels;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,6 @@ namespace MyBlog.Core.IServices
 {
     public partial interface IsysUserInfoServices : IBaseServices<sysUserInfo>
     {
+          Task<sysUserInfo> LoginAsync(sysUserInfo sysUserInfo);
     }
 }

@@ -7,3 +7,12 @@ F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\bin\
 F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.dll
 F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.pdb
 F:\我的.NET项目\我的NET-Core项目\ChenrhBlog-Core\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.csprojAssemblyReference.cache
+E:\self\MyBlogWebApi\MyBlog.Core.Common\bin\Debug\netcoreapp2.2\MyBlog.Core.Common.deps.json
+E:\self\MyBlogWebApi\MyBlog.Core.Common\bin\Debug\netcoreapp2.2\MyBlog.Core.Common.dll
+E:\self\MyBlogWebApi\MyBlog.Core.Common\bin\Debug\netcoreapp2.2\MyBlog.Core.Common.pdb
+E:\self\MyBlogWebApi\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.csprojAssemblyReference.cache
+E:\self\MyBlogWebApi\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.csproj.CoreCompileInputs.cache
+E:\self\MyBlogWebApi\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.AssemblyInfoInputs.cache
+E:\self\MyBlogWebApi\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.AssemblyInfo.cs
+E:\self\MyBlogWebApi\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.dll
+E:\self\MyBlogWebApi\MyBlog.Core.Common\obj\Debug\netcoreapp2.2\MyBlog.Core.Common.pdb
